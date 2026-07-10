@@ -1,0 +1,79 @@
+[
+  {
+    "id": 1,
+    "empresa": "Nortek Soluções",
+    "cargo": "Desenvolvedor(a) Front-End Júnior",
+    "requisitos": [
+      "html",
+      "css",
+      "javascript",
+      "git",
+      "responsividade"
+    ],
+    "salario": 3200,
+    "modalidade": "Remoto",
+    "stack": "HTML/CSS/JS"
+  },
+  {
+    "id": 2,
+    "empresa": "Vetta Digital",
+    "cargo": "Front-End Júnior (React)",
+    "requisitos": [
+      "html",
+      "css",
+      "javascript",
+      "react",
+      "git",
+      "acessibilidade"
+    ],
+    "salario": 3800,
+    "modalidade": "Híbrido",
+    "stack": "React"
+  },
+  {
+    "id": 3,
+    "empresa": "Bloom Comércio",
+    "cargo": "Estagiário(a) de Front-End",
+    "requisitos": [
+      "html",
+      "css",
+      "javascript"
+    ],
+    "salario": 1800,
+    "modalidade": "Presencial",
+    "stack": "HTML/CSS/JS"
+  },
+  {
+    "id": 4,
+    "empresa": "Rioverde Tech",
+    "cargo": "Desenvolvedor(a) Front-End Pleno",
+    "requisitos": [
+      "html",
+      "css",
+      "javascript",
+      "react",
+      "typescript",
+      "testes",
+      "git",
+      "acessibilidade"
+    ],
+    "salario": 6500,
+    "modalidade": "Remoto",
+    "stack": "React"
+  },
+  {
+    "id": 5,
+    "empresa": "Cedro Educação",
+    "cargo": "Front-End Júnior (Sites Institucionais)",
+    "requisitos": [
+      "html",
+      "css",
+      "javascript",
+      "seo",
+      "responsividade"
+    ],
+    "salario": 2900,
+    "modalidade": "Remoto",
+    "stack": "HTML/CSS/JS"
+  }
+]
