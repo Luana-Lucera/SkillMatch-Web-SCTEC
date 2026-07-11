@@ -25,3 +25,59 @@
    <main>
     <section aria-labelledby="titulo-perfil">
       <h2 id="titulo-perfil">Preencha seu perfil</h2>
+
+       <form id="form-perfil" novalidate>
+        <div class="campo">
+          <label for="nome">Nome</label>
+          <input type="text" id="nome" name="nome" autocomplete="name" required />
+        </div>
+ 
+        <div class="campo">
+          <label for="area">Área de interesse</label>
+          <input type="text" id="area" name="area" placeholder="Ex.: Front-End" required />
+        </div>
+ 
+        <div class="campo">
+          <label for="habilidades">Habilidades (separadas por vírgula)</label>
+          <input
+            type="text"
+            id="habilidades"
+            name="habilidades"
+            placeholder="Ex.: html, css, javascript, git"
+            aria-describedby="ajuda-habilidades"
+            required
+          />
+          <small id="ajuda-habilidades">Digite suas habilidades separando cada uma por vírgula.</small>
+        </div>
+ 
+        <div class="campo">
+          <label for="experiencia">Meses de experiência</label>
+          <input type="number" id="experiencia" name="experiencia" min="0" step="1" />
+        </div>
+ 
+        <p id="erro-formulario" class="erro-formulario" role="alert" hidden></p>
+ 
+        <button type="submit">Analisar compatibilidade</button>
+      </form>
+    </section>
+ 
+    <section id="resultados-secao" aria-labelledby="titulo-resultados">
+      <h2 id="titulo-resultados">Resultado da análise</h2>
+ 
+      <p id="status-vagas" class="status-vagas" aria-live="polite"></p>
+      <p id="contador-analises" class="contador-analises" aria-live="polite"></p>
+ 
+      <div id="melhor-vaga" class="melhor-vaga"></div>
+ 
+      <div id="resultados" class="grade-resultados"></div>
+    </section>
+  </main>
+ 
+  <footer class="rodape">
+    <p>Projeto Avaliativo — Módulo 1 — SkillMatch Web. Feito com HTML, CSS e JavaScript puro.</p>
+  </footer>
+ 
+  <script type="module" src="./assets/scripts/main.js"></script>
+</body>
+</html>
+ 
