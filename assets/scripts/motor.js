@@ -46,4 +46,16 @@ export class VagaFrontEnd extends Vaga {
     super(dados);
     this.stack = dados.stack ?? "Front-End";
   }
+
+   getRotulo() {
+    return `${super.getRotulo()} — stack: ${this.stack}`;
+  }
+}
+ 
+// RF04 — Classificação por faixa de percentual
+export function classificarCompatibilidade(percentual) {
+  if (percentual >= 80) return "Alta";
+  if (percentual >= 50) return "Média";
+  return "Baixa";
+}
  
