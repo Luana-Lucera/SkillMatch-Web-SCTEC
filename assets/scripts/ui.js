@@ -172,7 +172,7 @@ function criarListaHabilidades(titulo, habilidades, tipoClasse) {
  
 function criarDestaqueMelhorVaga(melhor, recomendacao) {
   const destaque = document.createElement("div");
-  destaque.classList.add("destaque-melhor-vaga");
+ destaque.classList.add("destaque-melhor-vaga", `destaque-melhor-vaga--${melhor.classificacao.toLowerCase()}`);
  
   const titulo = document.createElement("h3");
   titulo.textContent = `Melhor compatibilidade: ${melhor.vaga.getRotulo()}`;
