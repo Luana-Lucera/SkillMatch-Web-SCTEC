@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  color: #1f2a3c;
+  background-color: #efe9dd;
+}
+
+#form-perfil {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1.25rem;
+  max-width: 500px;
+}
+
+.campo {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.campo input {
+  padding: 0.6rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.grade-resultados {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.card-vaga {
+  flex: 1 1 100%; /* mobile: ocupa a linha toda */
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+@media (min-width: 640px) {
+  .card-vaga {
+    flex: 1 1 calc(50% - 1rem); /* tablet: 2 colunas */
+  }
+}
+
+@media (min-width: 960px) {
+  .card-vaga {
+    flex: 1 1 calc(33.333% - 1rem); /* desktop: 3 colunas */
+  }
+}
