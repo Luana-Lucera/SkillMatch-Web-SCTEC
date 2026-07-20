@@ -54,17 +54,21 @@ skillmatch-web/
 - Perfil salvo em `localStorage` — na próxima visita, o formulário já vem preenchido.
 - Contador de análises feitas na sessão (closure).
 
-## Vídeo de apresentação
-
-https://drive.google.com/file/d/1IRBJCFGXNU2Tey2b67Xj_tUu6ywb0lYG/view?usp=sharing
-
-## Observação
-
-Como havia a necessidade do vídeo ser mais enxuto, a pedido do professor, não fiquei explicando cada linha de código, e sim o funcionamento do site Skillmatch-web. 
-
-
 ## Kanban do projeto
 
 https://trello.com/b/mfvz6PB0/skillmatch-web
 
 
+## GitHub
+
+https://github.com/Luana-Lucera/SkillMatch-Web-SCTEC
+
+
+## Vídeo de apresentação
+
+https://drive.google.com/file/d/1IRBJCFGXNU2Tey2b67Xj_tUu6ywb0lYG/view?usp=sharing
+
+
+## Observação
+
+Como havia a necessidade do vídeo ser mais enxuto, a pedido do professor, não fiquei explicando cada linha de código, e sim o funcionamento do site Skillmatch-web. 
