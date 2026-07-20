@@ -56,8 +56,15 @@ skillmatch-web/
 
 ## Vídeo de apresentação
 
-`[link do vídeo aqui]` EDITAR{{{{{}}}}}
+https://drive.google.com/file/d/1IRBJCFGXNU2Tey2b67Xj_tUu6ywb0lYG/view?usp=sharing
+
+## Observação
+
+Como havia a necessidade do vídeo ser mais enxuto, a pedido do professor, não fiquei explicando cada linha de código, e sim o funcionamento do site Skillmatch-web. 
+
 
 ## Kanban do projeto
 
 https://trello.com/b/mfvz6PB0/skillmatch-web
+
+
